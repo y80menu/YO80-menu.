@@ -1,4 +1,5 @@
 const categories = [
+  {
     "id": "frozen_yogurt",
     "name": "Frozen Yogurt",
     "image": "frozen yogurt/KHL_3475.jpg",
@@ -138,8 +139,6 @@ const categories = [
       { "id": 82, "name": "Vanilla Shake", "image": "jk.jpg", "description": "", "price": "70.000" },
       { "id": 83, "name": "Caramel Shake", "image": "jk.jpg", "description": "", "price": "75.000" },
       { "id": 84, "name": "oreo Shake", "image": "milk shake/oreo milkshake .jpg", "description": "", "price": "75.000" }
-
-
     ]
   }
 ];
