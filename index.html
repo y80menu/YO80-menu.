@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YO80 Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <!-- شعار الانستغرام -->
+    <a href="https://instagram.com/yo80.sy" target="_blank" class="instagram-logo">
+      <img src="th.jpg" alt="Instagram Logo" />
+    </a>
+
+    <div class="top-banner">
+      <img src="hhhhh.png" alt="Top Banner" />
+    </div>
+  </header>
+
+  <main>
+    <section id="category-container"></section>
+
+    <section id="products-container" style="display: none;">
+      <button onclick="goBack()" class="back-btn">⬅ GoBack</button>
+      <h2 id="products-title"></h2>
+      <div id="product-grid"></div>
+    </section>
+
+    <!-- نافذة منبثقة -->
+    <div id="product-modal" class="modal" onclick="closeModal()">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <img id="modal-img" src="" alt="Product Image" />
+        <h3 id="modal-name"></h3>
+        <p id="modal-description"></p>
+        <p id="modal-price" class="price"></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- سكربتات -->
+  <script src="script.js"></script>
+</body>
+</html>
