@@ -1,6 +1,6 @@
 /* عام */
 body {
-  background-image: url('C:\Users\halmo\Desktop\yo80\freepik__enhance__14047.jpeg');
+  background-image: url('/freepik__enhance__14047.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +66,10 @@ header {
   flex-direction: column;
   justify-content: space-between;
   min-height: 280px; /* 👈 توحيد ارتفاع الكرت */
+  object-fit: contain; /* 👈 خلي الصورة تبين كلها */
 }
+
+
 
 /* صور الكروت سواء فئات أو منتجات */
 .card img {
@@ -75,6 +78,12 @@ header {
   object-fit: cover;   /* 👈 تغطية كاملة بدون تمدد */
   border-radius: 8px;
   background: white;
+    height: 180px; /* أو أي ارتفاع يناسب التصميم */
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  
+  
 }
 
 .card h2, .card h3, .card p {
